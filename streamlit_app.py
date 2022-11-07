@@ -45,7 +45,7 @@ streamlit.dataframe(my_data_rows)
 
 #Allow the ned user to add fruit to the list
 add_my_fruit = streamlit.text_input('What fruit would you like add?','Jackfruit')
-streamlit.write('Thanks for adding ', fruit_choice)
+streamlit.write('Thanks for adding ', add_my_fruit)
 
 #my_cur.execute("insert into frui_load_list values ('from streamlit')
 
